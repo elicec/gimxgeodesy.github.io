@@ -1,0 +1,13 @@
+---
+layout: none
+---
+{% include head.html %}
+			<div id="content">
+					<h3>资讯列表&#8250;&#8250;</h3>
+					<ul class="news">
+					{% for post in site.posts %}
+						<li><a title="{{ post.title }} 发布于{{ post.date | date_to_string }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><span class="post_date">{{ post.date | date_to_string }}</span></li>
+					</ul>
+					{% endfor %}				
+			</div>
+{% include foot.html %}

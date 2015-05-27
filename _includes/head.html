@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>电离层与空间天气.武汉大学.卫星导航定位技术研究中心</title>
+<meta name="keywords" content="全球,电离层,模型,电子含量,空间天气,TEC,ionosphere,武汉大学,卫星导航,定位,研究中心" />
+<meta name="description" content="全球电离层模型服务平台,电离层,数据分析中心" />
+<link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
+<script type="text/javascript" src="{{ site.url }}/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/pace.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#tecmap a').lightBox();
+});
+</script>
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/jquery.lightbox-0.5.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/dataurl.css" media="screen" />
+</head>
+<body>
+	<div id="main">
+		<div id="head">
+			<h1>电离层与空间天气数据处理与分析平台</h1>
+			<h2>武汉大学卫星导航定位技术研究中心</h2>
+		</div>
+		<div id="nav">
+			<a href="{{ site.url }}/">网站首页</a>
+			<a href="{{ site.url }}/news.html">新闻资讯</a>
+			<a href="{{ site.url }}/about.html">平台简介</a>
+			<a href="{{ site.url }}/research.html">科研成果</a>
+			<a href="{{ site.url }}/product.html">产品下载</a>
+			<a href="{{ site.url }}/report.html">分析报告</a>
+		</div>
+		<div id="cnt" class="clearfix">
+			<div id="side">
+				<h3>最新动态</h3>
+				<ul class="news_nav">
+					{% for post in site.posts limit:6 %}
+					<li><a title="{{ post.date | date_to_string }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>			
+				<h3>产品发布</h3>
+				<ul class="product_nav">
+					<li><a href="{{ site.url }}/report/session00.html">全球电离层实时产品</a></li>
+					<li><a href="{{ site.url }}/report/session10.html">全球电离层超快速产品A</a></li>
+					<li><a href="{{ site.url }}/report/session14.html">全球电离层超快速产品B</a></li>
+					<li><a href="{{ site.url }}/report/session13.html">全球电离层快速产品</a></li>
+					<li><a href="{{ site.url }}/report/session11.html">全球电离层准最终产品</a></li>
+					<li><a href="{{ site.url }}/report/session12.html">全球电离层最终产品</a></li>
+				</ul>
+				<h3>其他信息</h3>
+				<ul class="product_nav">
+					<li><a href="#">全球电离层产品月报</a></li>
+					<li><a href="#">各分析中心产品质量评估</a></li>
+					<li><a href="{{ site.url }}/info/sta_num.html">全球GNSS观测站监控</a></li>
+					<li><a href="{{ site.url }}/info/glo.html">GLONASS卫星频道监控</a></li>
+				</ul>
+			</div>

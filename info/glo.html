@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{% include top.html %}
+			<div class="full">
+				<h3>GLONASS卫星频道&#8250;&#8250;</h3>
+				<p><strong>更新时间</strong>: {% include glo_update_time.html %} UTC.</p>
+				<p><strong>下载地址</strong>: <a href="http://iono.gnss.ac.cn/glo.dat" title="glo.dat">http://iono.gnss.ac.cn/glo.dat</a></p>
+				<p><strong>格式描述</strong></p>
+				<table class="glo_format">
+					<tr>
+						<td>Date</td>
+						<td>2013 03 01</td>
+						<td>I4, 2(1X,I2) </td>
+					</tr>
+					<tr>
+						<td>GFC</td>
+						<td>01 -4 05 06 01 -4 05 06 -2 -7 00 -1 -2 -7 00 -1 04 -3 03 02 04 -3 03 02</td>
+						<td>I2, 23(1X,I2)</td>
+					</tr>
+				</table>
+				<p><strong>GLONASS卫星频道列表</strong></p>
+				<table class="glodata">
+					<tr>
+						<th>Date</th>
+						<th>Channels</th>
+					</tr>
+				{% for item in site.data.glo %}
+					<tr>
+						<td class="glo glo_date"><strong>{{ item.date }}</strong></td>
+						<td class="glo glo_data">{{ item.data }}</td>
+					</tr>
+				{% endfor %}
+				</table>
+			</div>
+{% include foot.html %}

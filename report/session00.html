@@ -1,0 +1,10 @@
+---
+layout: none
+---
+{% include head.html %}
+			<div id="content">
+				<h3>全球电离层实时产品报告&#8250;&#8250;</h3>
+				<p><strong>IRI2012实时电离层图</strong></p>
+				<img class="gim_map" alt="IRI2012实时电离层图" src="{{ site.imgurl }}/figure/tec_iri_rt.png?id={% for item in site.data.tecrtiri %}{{ item.timex }}{% endfor %}" />
+			</div>
+{% include foot.html %}

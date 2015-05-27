@@ -1,0 +1,101 @@
+body{font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Georgia,Helvetica, Arial, sans-serif;background:#eee url("../images/bg.png");margin:0px;padding:0px;color:#666;font-size:16px;}
+a{color:#03b;}
+#main{min-width:850px;max-width:1000px;margin:0px auto;background: #ddd;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,.5); -moz-box-shadow: 0 0 20px rgba(0,0,0,.5);}
+h1{margin:0;position:relative;top:100px;text-align:center;font-size: 50px;color:#eee;text-shadow:black 3px 3px 3px;filter:alpha(opacity=45);-moz-opacity:0.45; opacity:0.45;}
+#head h2{margin:0;position:absolute;top:10px;right:10px;font-weight: normal;font-size: 16px;text-align: center}
+h3{font-weight: normal;font-size:18px;border-bottom:#aaa 1px solid;}
+#side h3{padding:5px 10px;margin:20px 0 0 0;background:#ccc;color:#666;}
+#content h3,.full h3{border:none;font-size:22px;}
+p{line-height:25px;}
+#head{
+background:#000 url("../images/space.png") no-repeat;
+height:268px;
+position:relative;
+}
+#nav{
+height:55px;
+line-height: 55px;
+background: #333;
+text-align: center;
+font-size:22px;
+}
+#nav a{color:#999;margin: 0 20px 0 20px;text-decoration:none}
+#nav a:hover{color:yellow;}
+#cnt{
+padding:15px 20px;
+min-height:1000px;
+}
+.clearfix:after{
+content:"\20";
+display:block;
+height:0;
+clear:both;
+}
+.clearfix{zoom:1;}
+#side{
+float:left;
+width:240px;
+background:#ddd;
+margin-bottom:20px;
+}
+#content{
+float:right;
+width:700px;
+margin-bottom:20px;
+}
+.full{margin-bottom:20px;}
+#side ul,ul.log{margin:0;padding:5px 5px 15px 5px;background:#eee}
+#side ul li,ul.log li{
+list-style:none;list-style-type:none;
+line-height:30px;
+height:30px;
+overflow:hidden;
+padding:0 6px;
+}
+ul.log li{overflow:auto;height:auto;}
+ul.news a{color:#666;font-size:18px;}
+ul.news a:hover{color:#03b;}
+ul.news li span{margin-left:8px;font-size:12px;}
+
+#side li a{
+display:block;
+text-decoration:none;
+color:#666;
+}
+#side li a:hover{color:#03b}
+#side .news_nav li{
+border-bottom:#ccc 1px dashed;
+}
+#side .product_nav li{
+padding:6px;
+text-align:center;
+border-bottom:#ddd 1px solid;
+}
+#side .product_nav li a:hover{background:#06b;color:#fff;}
+#tecmap div.item img{margin:8px;boder:none;width:328px;}
+#tecmap div.rt_mode img{width:675px;}
+
+img.gim_map{width:100%;}
+.gim_tec img{margin:1px!important;boder:none!important;width:226px!important;}
+
+#timex{width:100%;height:280px;}
+
+
+#foot{
+height:60px;
+line-height: 60px;
+text-align: center;
+background:black;
+clear:both;
+}
+table.precision,table.glo_format,table.glodata{border-collapse: collapse;border:none;width: 100%;text-align: center;line-height: 30px;}
+th,td{border:#aaa 1px solid;padding:5px 8px;}
+table.glo_format,table.glodata{text-align:left;}
+td.glo,.glo_format td{height:35px;border:#aaa 1px solid;padding:5px 8px;font-size:15px;}
+.glo_format td{font-size:15px;}
+td.glo_data{font-family:"Lucida Console",Consolas,"Courier New",Fixedsys,Monospace,Monaco,sans-serif;}
+#tecmap img{width:263px;margin:1px 0;border: none;}
+.tip{background-color:#fcf8e3;color:#8a6d3b;font-size:14px;height:35px;line-height:35px;}
+
+
