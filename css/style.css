@@ -96,7 +96,7 @@ td.glo,.glo_format td{height:35px;border:#aaa 1px solid;padding:5px 8px;font-siz
 .glo_format td{font-size:15px;}
 td.glo_data{font-family:"Lucida Console",Consolas,"Courier New",Fixedsys,Monospace,Monaco,sans-serif;}
 #tecmap img{width:263px;margin:1px 0;border: none;}
-.tip{background-color:#fcf8e3;color:#8a6d3b;font-size:14px;min-height:35px;line-height:35px;margin-top:20px;padding:8px;}
+.tip{background-color:#fcf8e3;color:#8a6d3b;font-size:14px;min-height:30px;line-height:30px;margin-top:20px;padding:8px;}
 .sw_quiet{background-color:#dff0d8;color:#3c763d;line-height:20px;}
 .sw_active{background-color:#f2dede;color:#a94442;line-height:20px;}
 
