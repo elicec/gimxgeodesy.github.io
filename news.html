@@ -7,7 +7,7 @@ layout: none
 					<ul class="news">
 					{% for post in site.posts %}
 						<li><a title="{{ post.title }} 发布于{{ post.date | date_to_string }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><span class="post_date">{{ post.date | date_to_string }}</span></li>
-					</ul>
-					{% endfor %}				
+					{% endfor %}
+					</ul>				
 			</div>
 {% include foot.html %}

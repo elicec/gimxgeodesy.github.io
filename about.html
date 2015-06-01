@@ -6,9 +6,11 @@ layout: none
 				<h3>平台介绍&#8250;&#8250;</h3>
 				<p>电离层与空间天气数据处理与分析平台由武汉大学自主研发的软件系统(目前版本为IRIS 2.0)。该系统采用GNSS观测数据建立全球电离层模型,能够完全自动化实现数据的下载、数据预处理、数据处理、电离层产品发布、图形可视化、系统运行状态的实时推送、产品质量的监控、网站信息的更新等一系列工作。</p>
 				<h3>平台更新&#8250;&#8250;</h3>
+				<ul class="news">
 				{% for item in site.data.update %}
-					<p>{{ item.item }}</p>
+					<li>{{ item.item }}</li>
 				{% endfor %}
+				</ul>
 				<h3>服务器运行状态&#8250;&#8250;</h3>
 				<p><strong>内存使用情况</strong>(单位:GB)</p>
 				<img class="gim_map" src="{{ site.imgurl }}/figure/mem_state.png" alt="内存使用" />
