@@ -89,12 +89,13 @@ text-align: center;
 background:black;
 clear:both;
 }
-table.precision,table.glo_format,table.glodata{border-collapse: collapse;border:none;width: 100%;text-align: center;line-height: 30px;}
+table.precision,table.glo_format,table.glodata,table.iaac_gim{border-collapse: collapse;border:none;width: 100%;text-align: center;line-height: 30px;}
 th,td{border:#aaa 1px solid;padding:5px 8px;}
 table.glo_format,table.glodata{text-align:left;}
 td.glo,.glo_format td{height:35px;border:#aaa 1px solid;padding:5px 8px;font-size:15px;}
+.iaac_gim td{height:20px;padding:2px;font-size:14px;text-align:center;}
 .glo_format td{font-size:15px;}
-td.glo_data{font-family:"Lucida Console",Consolas,"Courier New",Fixedsys,Monospace,Monaco,sans-serif;}
+td.glo_data,table.iaac_gim{font-family:"Lucida Console",Consolas,"Courier New",Fixedsys,Monospace,Monaco,sans-serif;}
 #tecmap img{width:263px;margin:1px 0;border: none;}
 .tip{background-color:#fcf8e3;color:#8a6d3b;font-size:14px;min-height:30px;line-height:30px;margin-top:20px;padding:8px;}
 .sw_quiet{background-color:#dff0d8;color:#3c763d;line-height:20px;}
