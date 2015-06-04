@@ -93,7 +93,8 @@ table.precision,table.glo_format,table.glodata,table.iaac_gim{border-collapse: c
 th,td{border:#aaa 1px solid;padding:5px 8px;}
 table.glo_format,table.glodata{text-align:left;}
 td.glo,.glo_format td{height:35px;border:#aaa 1px solid;padding:5px 8px;font-size:15px;}
-.iaac_gim td{height:20px;padding:2px;font-size:14px;text-align:center;}
+.iaac_gim td{height:18px;padding:2px;font-size:14px;text-align:center;}
+.iaac_gim{margin-bottom:10px;}
 .glo_format td{font-size:15px;}
 td.glo_data,table.iaac_gim{font-family:"Lucida Console",Consolas,"Courier New",Fixedsys,Monospace,Monaco,sans-serif;}
 #tecmap img{width:263px;margin:1px 0;border: none;}
