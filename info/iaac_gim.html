@@ -2,10 +2,9 @@
 layout: none
 ---
 {% include head.html %}
-<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
 			<div id="content">
 				<h3>各分析中心产品比较&#8250;&#8250;</h3>
-				<p><strong>全球电离层图统计信息</strong></p>
+				<p><strong>全球电离层图统计信息</strong>(时间:{% for item in site.data.diff_gim_date %}{{ item.date }}{% endfor %})</p>
 				<table class="iaac_gim">
 					<tr>
 						<th><strong style="text-decoration:underline">MEAN</strong></th>
