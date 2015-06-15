@@ -1,8 +1,8 @@
-- timex: 20150614063657
-- sigma: 5.507
-- vmean: 0.047
-- vstd: 7.350
-- vrms: 7.350
-- dltime: 40.95
-- estime: 11.88
-- altime: 54.53
+- timex: 20150615060410
+- sigma: 5.250
+- vmean: 0.056
+- vstd: 7.036
+- vrms: 7.036
+- dltime: 14.93
+- estime: 6.31
+- altime: 22.85
