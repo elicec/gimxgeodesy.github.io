@@ -3,10 +3,10 @@ layout: none
 ---
 {% include head.html %}
 			<div id="content">
-				<h3>全球电离层超快速产品报告&#8250;&#8250;</h3>
+				<h3>全球电离层(准)最终产品报告&#8250;&#8250;</h3>
 				<p><strong>系统运行日志</strong></p>
 				<ul class="log">
-				{% for item in site.data.logsession14 %}
+				{% for item in site.data.logsession31 %}
 					<li>{{ item.item }}</li>
 				{% endfor %}
 				</ul>
@@ -21,37 +21,37 @@ layout: none
 						<td>残差均方根</td>
 					</tr>
 					<tr>
-						<td>{% for item in site.data.ressession14 %}{{ item.sigma }}{% endfor %}</td>
-						<td>{% for item in site.data.ressession14 %}{{ item.vmean }}{% endfor %}</td>
-						<td>{% for item in site.data.ressession14 %}{{ item.vstd }}{% endfor %}</td>
-						<td>{% for item in site.data.ressession14 %}{{ item.vrms }}{% endfor %}</td>
+						<td>{% for item in site.data.ressession31 %}{{ item.sigma }}{% endfor %}</td>
+						<td>{% for item in site.data.ressession31 %}{{ item.vmean }}{% endfor %}</td>
+						<td>{% for item in site.data.ressession31 %}{{ item.vstd }}{% endfor %}</td>
+						<td>{% for item in site.data.ressession31 %}{{ item.vrms }}{% endfor %}</td>
 					</tr>
 				</table>
 				<p><strong>全球电离层24小时动态变化图</strong>(单位:TECU)</p>
-				<img class="gim_map" src="{{ site.imgurl }}/figure/session14_tec.gif?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" alt="全球电离层" />
+				<img class="gim_map" src="{{ site.imgurl }}/figure/session31_tec.gif?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" alt="全球电离层" />
 				<p><strong>全球电离层图</strong>(单位:TECU)</p>
 				<div id="tecmap" class="gim_tec">
-					<a href="{{ site.imgurl }}/figure/session14_tec_0.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_0.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_1.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_1.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_2.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_2.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_3.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_3.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_4.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_4.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_5.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_5.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_6.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_6.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_7.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_7.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_8.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_8.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_9.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_9.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_10.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_10.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
-<a href="{{ site.imgurl }}/figure/session14_tec_11.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session14_tec_11.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" /></a>
+					<a href="{{ site.imgurl }}/figure/session31_tec_0.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_0.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_1.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_1.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_2.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_2.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_3.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_3.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_4.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_4.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_5.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_5.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_6.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_6.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_7.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_7.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_8.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_8.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_9.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_9.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_10.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_10.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
+<a href="{{ site.imgurl }}/figure/session31_tec_11.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session31_tec_11.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" /></a>
 				</div>
 				<p><strong>GPS卫星差分码偏差</strong>(单位:ns)</p>
-				<img class="gim_map" src="{{ site.imgurl }}/figure/session14_prn_dcb.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型解算的GPS卫星差分码偏差" />
+				<img class="gim_map" src="{{ site.imgurl }}/figure/session31_prn_dcb.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型解算的GPS卫星差分码偏差" />
 				<p><strong>残差的频率分布</strong>(单位:%)</p>
-				<img class="gim_map" src="{{ site.imgurl }}/figure/session14_residual.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型残差的频率分布" />
+				<img class="gim_map" src="{{ site.imgurl }}/figure/session31_residual.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型残差的频率分布" />
 				<p><strong>残差绝对值的频率分布</strong>(单位:%)</p>
-				<img class="gim_map" src="{{ site.imgurl }}/figure/session14_residual_abs.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型残差绝对值的频率分布" />
+				<img class="gim_map" src="{{ site.imgurl }}/figure/session31_residual_abs.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型残差绝对值的频率分布" />
 				<p><strong>观测卫星的频率分布</strong>(单位:%)</p>
-				<img class="gim_map" src="{{ site.imgurl }}/figure/session14_obs_prn.png?id={% for item in site.data.ressession14 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型观测卫星的频率分布" />
+				<img class="gim_map" src="{{ site.imgurl }}/figure/session31_obs_prn.png?id={% for item in site.data.ressession31 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型观测卫星的频率分布" />
 				<script src="{{ site.url }}/js/echarts-all.js"></script>
     <script type="text/javascript">
         var myChart = echarts.init(document.getElementById('timex'));
@@ -116,7 +116,7 @@ layout: none
                     fontWeight: 'bolder'
                 }
             },
-            data:[{value:{% for item in site.data.ressession14 %}{{ item.altime }}{% endfor %}, name: '共耗时(分钟)'}]
+            data:[{value:{% for item in site.data.ressession31 %}{{ item.altime }}{% endfor %}, name: '共耗时(分钟)'}]
         },
         {
             name:'计算消耗',
@@ -170,7 +170,7 @@ layout: none
                     fontWeight: 'bolder'
                 }
             },
-            data:[{value:{% for item in site.data.ressession14 %}{{ item.estime }}{% endfor %} , name: '计算耗时(分钟)'}]
+            data:[{value:{% for item in site.data.ressession31 %}{{ item.estime }}{% endfor %} , name: '计算耗时(分钟)'}]
         },
         {
             name:'下载消耗',
@@ -224,7 +224,7 @@ layout: none
                     fontWeight: 'bolder'
                 }
             },
-            data:[{value: {% for item in site.data.ressession14 %}{{ item.dltime }}{% endfor %} , name: '下载耗时(分钟)'}]
+            data:[{value: {% for item in site.data.ressession31 %}{{ item.dltime }}{% endfor %} , name: '下载耗时(分钟)'}]
         }
     ]
 });

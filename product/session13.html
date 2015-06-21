@@ -44,6 +44,8 @@ layout: none
 <a href="{{ site.imgurl }}/figure/session13_tec_10.png?id={% for item in site.data.ressession13 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session13_tec_10.png?id={% for item in site.data.ressession13 %}{{ item.timex }}{% endfor %}" /></a>
 <a href="{{ site.imgurl }}/figure/session13_tec_11.png?id={% for item in site.data.ressession13 %}{{ item.timex }}{% endfor %}"><img src="{{ site.imgurl }}/figure/small_session13_tec_11.png?id={% for item in site.data.ressession13 %}{{ item.timex }}{% endfor %}" /></a>
 				</div>
+				<p><strong>GPS卫星差分码偏差</strong>(单位:ns)</p>
+				<img class="gim_map" src="{{ site.imgurl }}/figure/session13_prn_dcb.png?id={% for item in site.data.ressession13 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型解算的GPS卫星差分码偏差" />
 				<p><strong>残差的频率分布</strong>(单位:%)</p>
 				<img class="gim_map" src="{{ site.imgurl }}/figure/session13_residual.png?id={% for item in site.data.ressession13 %}{{ item.timex }}{% endfor %}" alt="全球电离层模型残差的频率分布" />
 				<p><strong>残差绝对值的频率分布</strong>(单位:%)</p>
