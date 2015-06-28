@@ -4,7 +4,7 @@ layout: none
 {% include head.html %}
 			<div id="content">
 			<div id="tecmap">
-				<div class="tip">如需查看最新的实时产品,请鼠标右键刷新.由于浏览器缓存,直接点击刷新按钮,不一定显示最新的产品.</div>
+				<div class="tip">由于数据流中断或网络延迟等原因造成中国和澳大利亚区域实时电离层图偶尔不及时更新，请见谅.</div>
 				<div class="tip {% for item in site.data.spaceweather %}{{ item.weather }}{% endfor %}">{% for item in site.data.spaceweather %}{{ item.report }}{% endfor %}</div>
 				<h3>全球电离层实时产品&#8250;&#8250;</h3>
 				<div class="item rt_mode">
