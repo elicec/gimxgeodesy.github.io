@@ -4,10 +4,10 @@ layout: none
 {% include head_en.html %}
 			<div id="content">
 				<h3>Introduction&#8250;&#8250;</h3>
-				<p>The platform of data processing and analysis about ionosphere and spacial weather was{{ site.affiliation }}a self-developed software system(The current version is IRIS 2.0)。The system establishes globle ionosphere model using GNSS observations,which is able to fully automaticly achieve data download,data preprocessing,data processing,ionosphere products launch release,graphical visualization,real-time delivery of system sunning ststus, product quality monitoring, the update of website information and a series of work.</p>
+				<p>The software platform for data processing and analysis of ionosphere and space weather is developed by {{ site.affiliation_en }}. This platform has kinds of functions, including downloading global GNSS data, preprocessing and processing data, graphical visualization of TEC maps, releasing the ionosphere products, real-time pushing operating status of data processing as well as updating website automatically.</p>
 				<h3>Update&#8250;&#8250;</h3>
 				<ul class="news">
-				{% for item in site.data.update %}
+				{% for item in site.data.update_en %}
 					<li>{{ item.item }}</li>
 				{% endfor %}
 				</ul>
