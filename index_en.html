@@ -4,8 +4,7 @@ layout: none
 {% include head_en.html %}
 			<div id="content">
 			<div id="tecmap">
-				<div class="tip">Tip: Sometimes, real-time ionospheric tec maps over China and Australia would not be updated in time because of network problem.</div>
-				<div class="tip {% for item in site.data.spaceweather %}{{ item.weather }}{% endfor %}">{% for item in site.data.spaceweather %}{{ item.report }}{% endfor %}</div>
+				<div class="tip tip_en">Tip: Sometimes, real-time ionospheric tec maps over China and Australia would not be updated in time because of network problem.</div>
 				<h3>Real-time Ionospheric Products&#8250;&#8250;</h3>
 				<div class="item rt_mode">
 					<img alt="IRI2012 real-time ionosphere graph" src="{{ site.imgurl }}/figure/tec_iri_rt.png?id={% for item in site.data.tecrtiri %}{{ item.timex }}{% endfor %}" />
