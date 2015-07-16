@@ -4,8 +4,8 @@ a{color:#03b;}
 -webkit-box-shadow: 0 0 20px rgba(0,0,0,.5); -moz-box-shadow: 0 0 20px rgba(0,0,0,.5);}
 h1{margin:0;position:relative;top:100px;text-align:center;font-size: 50px;color:#eee;text-shadow:black 3px 3px 3px;filter:alpha(opacity=45);-moz-opacity:0.45; opacity:0.45;}
 #head h2{margin:0;position:absolute;top:10px;right:10px;font-weight: normal;font-size: 16px;text-align: center}
-#lang{margin:0;position:absolute;top:10px;left:10px;font-size: 16px;}
-#lang a{color:#666;padding-left:32px;margin-right:10px;}
+#lang{margin:0;position:absolute;top:10px;left:10px;font-size: 14px;}
+#lang a{color:#666;padding-left:21px;text-decoration:none;}
 a.cn{background:#000 url("../images/cn.png") no-repeat;}
 a.en{background:#000 url("../images/en.png") no-repeat;}
 h3{font-weight: normal;font-size:18px;border-bottom:#aaa 1px solid;}
