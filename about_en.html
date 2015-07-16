@@ -1,0 +1,20 @@
+---
+layout: none
+---
+{% include head.html %}
+			<div id="content">
+				<h3>Introduction&#8250;&#8250;</h3>
+				<p>The platform of data processing and analysis about ionosphere and spacial weather was{{ site.affiliation }}a self-developed software system(The current version is IRIS 2.0)。The system establishes globle ionosphere model using GNSS observations,which is able to fully automaticly achieve data download,data preprocessing,data processing,ionosphere products launch release,graphical visualization,real-time delivery of system sunning ststus, product quality monitoring, the update of website information and a series of work.</p>
+				<h3>Update&#8250;&#8250;</h3>
+				<ul class="news">
+				{% for item in site.data.update %}
+					<li>{{ item.item }}</li>
+				{% endfor %}
+				</ul>
+				<h3>Server Running State&#8250;&#8250;</h3>
+				<p><strong>Memory Usage</strong>(Unit:GB)</p>
+				<img class="gim_map" src="{{ site.imgurl }}/figure/mem_state.png" alt="Memory Usage" />
+				<p><strong>Hard Disk Usage</strong>(Unit:TB)</p>
+				<img class="gim_map" src="{{ site.imgurl }}/figure/disk_state.png" alt="Hard Disk Usage" />	
+			</div>
+{% include foot.html %}
