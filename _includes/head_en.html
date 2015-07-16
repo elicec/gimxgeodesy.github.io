@@ -36,7 +36,7 @@ $(function() {
 			<div id="side">
 				<h3>Latest News</h3>
 				<ul class="news_nav">
-					{% for post in site.postsen limit:6 %}
+					{% for post in site.blog limit:6 %}
 					<li><a title="{{ post.date | date_to_string }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>			
