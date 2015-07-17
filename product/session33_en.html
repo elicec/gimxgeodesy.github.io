@@ -116,7 +116,7 @@ layout: none
                     fontWeight: 'bolder'
                 }
             },
-            data:[{value:{% for item in site.data.ressession33 %}{{ item.altime }}{% endfor %}, name: 'Time Elapsed(minute)'}]
+            data:[{value:{% for item in site.data.ressession33 %}{{ item.altime }}{% endfor %}, name: 'Total(minute)'}]
         },
         {
             name:'Computation',
@@ -170,7 +170,7 @@ layout: none
                     fontWeight: 'bolder'
                 }
             },
-            data:[{value:{% for item in site.data.ressession33 %}{{ item.estime }}{% endfor %} , name: 'Computational Time Elapsed(minute)'}]
+            data:[{value:{% for item in site.data.ressession33 %}{{ item.estime }}{% endfor %} , name: 'Computation(minute)'}]
         },
         {
             name:'Download',
@@ -224,7 +224,7 @@ layout: none
                     fontWeight: 'bolder'
                 }
             },
-            data:[{value: {% for item in site.data.ressession33 %}{{ item.dltime }}{% endfor %} , name: 'Download Elapsed(minute)'}]
+            data:[{value: {% for item in site.data.ressession33 %}{{ item.dltime }}{% endfor %} , name: 'Download(minute)'}]
         }
     ]
 });
