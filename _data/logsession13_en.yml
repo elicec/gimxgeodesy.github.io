@@ -1,9 +1,4 @@
-- item: 2015-07-17,09:00:01@IRIS is beginning to process global GNSS data on 7/15,2015(DOY:196).
-- item: 2015-07-17,09:00:02@IRIS is starting to download ephemeris and GNSS data.
-- item: 2015-07-17,09:01:34@Data are downloaded. Time consumption:1.3345 minutes.
-- item: 2015-07-17,09:01:49@Preprocessing is done. Time consumption:0 minutes.
-- item: 2015-07-17,09:07:13@Data processing is completed. Time consumption:5.0553 minutes.
-- item: 2015-07-17,09:07:13@Well done. Total consumption:7.1970 minutes. IONEX products and web pages will be updated in a few minutes.
-- item: 2015-07-17,09:07:35@IRIS completed product visualization.
-- item: 2015-07-17,09:13:57@IRIS just pushed the latest products and updated the web pages.
-- item: 2015-07-17,09:13:57@Job session13 is finished. by IRIS 2.0
+- item: 2015-07-18,09:00:01@IRIS is beginning to process global GNSS data on 7/16,2015(DOY:197).
+- item: 2015-07-18,09:00:02@IRIS is starting to download ephemeris and GNSS data.
+- item: 2015-07-18,09:01:57@Data are downloaded. Time consumption:1.7391 minutes.
+- item: 2015-07-18,09:02:21@Preprocessing is done. Time consumption:0 minutes.
