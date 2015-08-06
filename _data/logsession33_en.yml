@@ -1,2 +1,4 @@
 - item: 2015-08-06,11:00:01@IRIS is beginning to process global GNSS data on 8/3,2015(DOY:215).
 - item: 2015-08-06,11:00:03@IRIS is starting to download ephemeris and GNSS data.
+- item: 2015-08-06,11:08:04@Data are downloaded. Time consumption:7.4336 minutes.
+- item: 2015-08-06,11:08:32@Preprocessing is done. Time consumption:1.5894 minutes.
